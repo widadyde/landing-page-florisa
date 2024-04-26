@@ -1,0 +1,182 @@
+/* Write some CSS below */
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: ;
+
+}
+h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+
+}
+h2{
+    font-size: 30px;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    padding: 20px;
+    background-color: #000000;
+    opacity: 90%;
+    color: white;
+    height: 40px;
+}
+.logo {
+    width: 100px; 
+    height: 100px;
+    margin-top: -30px;
+  
+  }
+  
+  .nav-links {
+    list-style: none;
+    padding-left:30px ;
+    margin-bottom: 0px;
+
+  }
+  
+  .nav-links li {
+    margin-right: 20px; 
+    display: inline;
+    
+  }
+  
+  .nav-links li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    margin-top: -50px;
+    text-align: center;
+
+  }
+
+
+#buttoncta {
+    background-color:#d792b1;
+}
+
+.banner{
+    background-image: url(images/florisa.png);
+    background-position: center;
+    background-size: cover;
+    padding-top:100px;
+    padding-bottom: 100px;
+    color:black;
+    text-align: center;
+}
+.banner p{
+    font-size: 30px;
+    margin: 35px;
+}
+#introduction p { 
+    margin-bottom: 30px;
+}
+
+a{
+    text-decoration: none;
+    margin: 80px ;
+    background: rgb(0,0,0);
+    border-radius: 4px ;
+    padding: 15px 25px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: white
+
+}
+  a:hover{
+    background-color: #d792b1;
+    color: white
+}
+.container{
+    margin: 20px auto;
+    width: 900px;
+}
+.section-white{
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+.card-white{
+    background-color: rgb(240, 226, 229);
+    box-shadow: (0,0,0,0.1);
+    border-radius: 4px;
+    text-align: center;
+    height: 500px;
+    transition: 0.5s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.card-white img{
+    width:100%;
+    height:300px;
+    object-fit: cover;
+}
+.card-white a{
+ line-height: 2;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+}
+.cards1{
+    margin-top: 30px;
+     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 16px;
+}
+.card-white1{
+    background-color: white;
+    /* box-shadow: (0,0,0,0.1); */
+    border-radius: 4px;
+    text-align: left;
+}
+.card-white:hover {
+    box-shadow: 0 10px 20px rgba(133,58,58,0.4); 
+    transform: scale(1.1); 
+}
+.card-white1 p{
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+}
+#intro p{
+    margin-bottom: 150px;
+}
+.card-white1 a{
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 120px;
+}
+.card-white1 img{
+    width:100%;
+    height:600px;
+    object-fit: cover;
+  
+}
+
+.footer{
+    background-color: background: rgb(181,239,250);
+    background: -moz-linear-gradient(70deg, rgba(181,239,250,1) 0%, rgba(247,191,214,0.6657256652661064) 74%);
+    background: -webkit-linear-gradient(70deg, rgba(181,239,250,1) 0%, rgba(247,191,214,0.6657256652661064) 74%);
+    background: linear-gradient(70deg, rgba(181,239,250,1) 0%, rgba(247,191,214,0.6657256652661064) 74%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b5effa",endColorstr="#f7bfd6",GradientType=1);;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+#happy{
+    height:125px
+}
+#venues{
+    height: 125px;
+}
+#floral{
+    height: 125px
+}
+
